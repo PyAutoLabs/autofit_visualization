@@ -1,0 +1,45 @@
+# version:
+#   python_version_check: False  # uncomment to suppress the Python version warning
+#                                # if running on a non-recommended Python (anything other than 3.12 / 3.13).
+
+updates:
+  iterations_per_quick_update: 1e99 # Non-linear search iterations between every quick update, which just displays the maximum likelihood model fit.
+  iterations_per_full_update: 1e99  # Non-linear search iterations between every full update, which outputs all visuals and result fits (e.g. model.result, search.summary), this exits the search and can be slow.
+  quick_update_background: false    # If True, perform_quick_update runs on a background daemon thread so the sampler is never blocked while visuals render. Requires the Analysis subclass to set `supports_background_update = True`.
+  live_visual_update: false         # If True, quick-update visuals are pushed to a live surface (a Jupyter cell when in a kernel, a matplotlib viewer subprocess otherwise) in addition to being written to disk.
+hpc:
+  hpc_mode: false                   # If True, use HPC mode, which disables GUI visualization, logging to screen and other settings which are not suited to running on a super computer.
+  iterations_per_quick_update: 10000 #  Non-linear search iterations between every quick update, which just displays the maximum likelihood model fit.
+  iterations_per_full_update: 1e99  # Non-linear search iterations between every full update, which outputs all visuals and result fits (e.g. model.result, search.summary), this exits the search and can be slow.
+inversion:
+  check_reconstruction: true        # If True, the inversion's reconstruction is checked to ensure the solution of a meshs's mapper is not an invalid solution where the values are all the same.
+  reconstruction_vmax_factor: 0.5   # Plots of an Inversion's reconstruction use the reconstructed data's bright value multiplied by this factor.  
+output:
+  force_pickle_overwrite: false     #   force_pickle_overwrite: false     # If True, pickle files output by a search (e.g. samples.pickle) are recreated when a new model-fit is performed.
+  force_visualize_overwrite: true  # ON here (every render is fresh). If True, visualization images output by a search (e.g. subplots of the fit) are recreated when a new model-fit is performed.
+  info_whitespace_length: 80        # Length of whitespace between the parameter names and values in the model.info / result.info
+  log_level: INFO                   # The level of information output by logging.
+  log_to_file: false                # If True, outputs the non-linear search log to a file (and not printed to screen).
+  log_file: output.log              # The name of the file the logged output is written to (in the non-linear search output folder)
+  model_results_decimal_places: 3   # Number of decimal places estimated parameter values / errors are output in model.results.
+  remove_files: false               # If True, all output files of a non-linear search (e.g. samples, visualization, etc.) are deleted once the model-fit has completed, such that only the .zip file remains.
+  samples_to_csv: true              # If True, non-linear search samples are written to a .csv file.
+  unconverged_sample_size : 100     # If outputting results of an unconverged search, the number of samples used to estimate the median PDF values and errors.
+  visualize_ep_factor_searches: true  # ON here: every EP factor search draws its own visuals (data.png / model_fit.png per factor), which the ep producer renders. Library default false.
+parallel:
+  warn_environment_variables: true  # If True, a warning is displayed when the search's number of CPU > 1 and enviromment variables related to threading are also > 1.
+profiling:
+  parallel_profile: false           # If True, the parallelization of the fit is profiled outputting a cPython graph.
+  repeats: 1                        # The number of repeat function calls used to measure run-times when profiling.
+test:
+  exception_override: false
+  lh_timeout_seconds:               # If a float is input, the log_likelihood_function call is timed out after this many seconds, to diagnose infinite loops. Default is None, meaning no timeout.
+  parallel_profile: false
+version:
+  # The compatibility FLOOR: the oldest library release whose API this
+  # workspace's scripts require. Preferred over workspace_version
+  # (autonerves/workspace.py). Bump DELIBERATELY — only when a script
+  # starts needing new API — never per release. Must always name an
+  # INSTALLABLE (non-yanked) release.
+  minimum_library_version: 2026.7.9.1
+  workspace_version_check: false    # this repo renders against library mains locally and PyPI releases in CI; the mismatch warning is expected noise.
