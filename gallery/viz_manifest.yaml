@@ -4,300 +4,300 @@
 schema: 1
 generated: '2026-09-29'
 rendered_with:
-  autofit: 2026.8.17.1
+  autofit: 2026.9.27.2
 figure_count: 49
 figures:
 - file: scripts/ep/images/visualization/ep_plotter/graph_model_prior_factors.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ep_plotter
-  bytes: 23664
-  sha256: df9c34efabf977f1b392cf79680c04b5edbd7adf4aec7e82d2c369a57cecf416
+  bytes: 23863
+  sha256: d4fda20571cded0ef1b586897aaecdad04c1187dc393f697e4a5ce9af0b4d1ae
 - file: scripts/ep/images/visualization/ep_plotter/graph_state_prior_factors.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ep_plotter
-  bytes: 48575
-  sha256: 74b2827ee333b974d3f535a13fb17d48c276de555c8c285b3644708dcbc0d494
+  bytes: 76164
+  sha256: e7281658a678852336a7a5917e918edc561e297ffcbb08c82522fa282b0e568e
 - file: scripts/ep/images/visualization/factor_0/corner_anesthetic.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_0
-  bytes: 128020
-  sha256: bfc4778a43420edf728388ebaa504cc1da31b3fc56781f78b96226583de1a035
+  bytes: 119268
+  sha256: 51f5e6b4c1b47617477ec7343b492fe4f4eb13f3901bdabd856069935a955dc7
 - file: scripts/ep/images/visualization/factor_0/data.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_0
-  bytes: 29641
-  sha256: a7727e5ef0061ebb1c39acbc1ce00d97a5c89400974afb2f9e4d5d5389abd9b1
+  bytes: 29121
+  sha256: 7ac8aabbb035fa1c5c26068548bb6b2395bd633fa8a990f95b8f56b6a6b74596
 - file: scripts/ep/images/visualization/factor_0/model.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_0
-  bytes: 15814
-  sha256: 11facfcf0ca94679f4b77afd81596ff5bcc69748da711733ec4ef7b5e4ea734a
+  bytes: 15831
+  sha256: 681e61ee3009c28ba1eac0eff33e4b3ad8be8d63397e6b74bb01cf726fdacdb9
 - file: scripts/ep/images/visualization/factor_0/model_fit.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_0
-  bytes: 39999
-  sha256: 96843bed8d5f53285cd76ca05ecf7cb36436e9de9b148ff8718f31f6ba4fbfff
+  bytes: 39293
+  sha256: cc38c526f7b3d844f07a15d4e60b5bd2e9a921ecdbb4fbe8f4dd27dbf1a7be46
 - file: scripts/ep/images/visualization/factor_1/corner_anesthetic.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_1
-  bytes: 119037
-  sha256: 8c03b64f90244193cc6bf18f7b9bc6fda0fffa5f03c1e108602d5bde109d95ab
+  bytes: 117176
+  sha256: 55d405c9e2ad0bd9c19c33c259f0b13bc230eee24fc04b8a2b0742b9b40ac206
 - file: scripts/ep/images/visualization/factor_1/data.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_1
-  bytes: 36857
-  sha256: d828c232e02c70f599c49760304a6ffb3ecf10e8d8b0810daa0c9825d8f06b9d
+  bytes: 36314
+  sha256: ec02792763b97aec605dbdd4397c5e6c64724ac9098ae790951086812187338c
 - file: scripts/ep/images/visualization/factor_1/model.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_1
-  bytes: 15814
-  sha256: 11facfcf0ca94679f4b77afd81596ff5bcc69748da711733ec4ef7b5e4ea734a
+  bytes: 15831
+  sha256: 681e61ee3009c28ba1eac0eff33e4b3ad8be8d63397e6b74bb01cf726fdacdb9
 - file: scripts/ep/images/visualization/factor_1/model_fit.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_1
-  bytes: 46006
-  sha256: 1b327859c9c9c101601c69aee227bb61c8c33ce1623e458ad019071e1748a108
+  bytes: 45526
+  sha256: ded93350ad3230f62ffcb7a06825dc7812957d15d54e1bdeec0fcec1a271b5c5
 - file: scripts/ep/images/visualization/factor_2/corner_anesthetic.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_2
-  bytes: 119958
-  sha256: 2a2c1cc7c96c11a5c4c1676cd44af2c1a97d280f254bc5ee6d2447e096fc09b2
+  bytes: 118818
+  sha256: 3f67401ad7f5184f1c7f42b1a28f67142a616fe4c4dd48f5657732853c4bfedf
 - file: scripts/ep/images/visualization/factor_2/data.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_2
-  bytes: 39969
-  sha256: 1ace20f5a349c6dccd581f8677cd698a91afa53915053e7e0f5cbae323ccde55
+  bytes: 37946
+  sha256: af0e74416eddd08c7d7ea6beefbf908af7170536c1dc17cfbc41fabee96f42fb
 - file: scripts/ep/images/visualization/factor_2/model.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_2
-  bytes: 15814
-  sha256: 11facfcf0ca94679f4b77afd81596ff5bcc69748da711733ec4ef7b5e4ea734a
+  bytes: 15831
+  sha256: 681e61ee3009c28ba1eac0eff33e4b3ad8be8d63397e6b74bb01cf726fdacdb9
 - file: scripts/ep/images/visualization/factor_2/model_fit.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_2
-  bytes: 50494
-  sha256: b8b477fdc683ca3d92f9651b6c111bda6889ef4ce4a94ed1e7c4802670d5f1fd
+  bytes: 48356
+  sha256: ac99b1dd729ffaa8d0bb6f0e07c7149f5083a2375ffa9adf79cd1d4d2e8c2b24
 - file: scripts/ep/images/visualization/graph.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 36594
-  sha256: 774285a429e58be41663bddf9cfd410b3f2d5e0f1e2ee5302f66156391597567
+  bytes: 36246
+  sha256: 9d793d59455d28be86aa8e8cd14998b7650dee69982de320fb858eb5c9b2bbe4
 - file: scripts/ep/images/visualization/graph_factors.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 74684
-  sha256: fabaaa9583eb60eb1f0d9da64400d0c20a466195fe54d075d2be3a3f4b456b0b
+  bytes: 75990
+  sha256: 5f6077117f5d904dd443a50400ae0359de45c25a326e7eb469f879ab7305df64
 - file: scripts/ep/images/visualization/graph_model.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 20545
-  sha256: d99b24ea72db355f128c018ddfa3cdab375591098bc66e216376eecabd006704
+  bytes: 20980
+  sha256: fa55ca75d3593060de2795fd6869eeb510d9489084d2fe0a5edc8be3d0418256
 - file: scripts/ep/images/visualization/graph_state.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 42863
-  sha256: 877dbcc1023e6b5ffd11cf8c8d6008b12847e1ef7a57f9ca01ccd4dbb899956e
+  bytes: 70176
+  sha256: 7b6e7cf233d5f3f171ada88f7a83c09d8d50be8302dd206a6446424a7231577a
 - file: scripts/ep/images/visualization/mean_field_evolution.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 71060
-  sha256: 238b3d500a785327e95baa99b4d490fa752a5fecf48c96cbc4d9330895a0f513
+  bytes: 66053
+  sha256: 629c82d491957970be57eac8b49b4cce404455c2bbcec21c6292514ba8a6ea8d
 - file: scripts/model/images/visualization/collection/model_names.png
   producer: scripts/model/visualization.py
   domain: model
   source: collection
-  bytes: 30540
-  sha256: 9ffd82cb74f955855bc0b66b119c617ce713c0175b2e92779357a36cf1e64a9d
+  bytes: 29328
+  sha256: e048f55d11d23599689401bc2852d9469770401f0ff45930fc268f860a069130
 - file: scripts/model/images/visualization/collection/model_names_uncollapsed.png
   producer: scripts/model/visualization.py
   domain: model
   source: collection
-  bytes: 17944
-  sha256: ad3ed13ed5b53a2ca0aa86204c75834eb100672675f6d165692129e66d6c803d
+  bytes: 20593
+  sha256: 8cfd9f0f47a537f6e0167b341c99b3425905b7d0844247363750f938a8fa7276
 - file: scripts/model/images/visualization/collection/model_priors.png
   producer: scripts/model/visualization.py
   domain: model
   source: collection
-  bytes: 32898
-  sha256: 5d932ed82264b1bb4fbc60e43827844e95933a46eb8e2c8a8768d5b6b70ded86
+  bytes: 31707
+  sha256: eaa7ad1011435ef62977ffbadcce8a65d4be6f43257bc1e0118db2b912e9e3d2
 - file: scripts/model/images/visualization/gaussian/model_names.png
   producer: scripts/model/visualization.py
   domain: model
   source: gaussian
-  bytes: 15814
-  sha256: 11facfcf0ca94679f4b77afd81596ff5bcc69748da711733ec4ef7b5e4ea734a
+  bytes: 15831
+  sha256: 681e61ee3009c28ba1eac0eff33e4b3ad8be8d63397e6b74bb01cf726fdacdb9
 - file: scripts/model/images/visualization/gaussian/model_priors.png
   producer: scripts/model/visualization.py
   domain: model
   source: gaussian
-  bytes: 18491
-  sha256: 699cfe9272f2c239467f11c8464c47c31dd3ce296fa9519916a0a1f683262c93
+  bytes: 18265
+  sha256: 6f65711b7e807978a2f6a5e5bb344237b0f0de17379af8b46c005f48158215da
 - file: scripts/model/images/visualization/graph/model_names.png
   producer: scripts/model/visualization.py
   domain: model
   source: graph
-  bytes: 44654
-  sha256: a47aa9e8af4eaa46622fcb5c51c1dd4fc29e350c4d39c1fa39edfc4932003841
+  bytes: 39190
+  sha256: 2a7a57abb99f116adeca0dfbd32629b1ad2fb53ba16cc547867cd1f379c05732
 - file: scripts/model/images/visualization/graph/model_names_uncollapsed.png
   producer: scripts/model/visualization.py
   domain: model
   source: graph
-  bytes: 34972
-  sha256: 120dfb1306ea1a4b7cca6e1ddddf50d8729180c0922da9e94504fc6530541689
+  bytes: 41127
+  sha256: 42baac7d70976f60823c8c76d620729bd76e8240c24fe4f2b4b76f175faab034
 - file: scripts/model/images/visualization/graph/model_priors.png
   producer: scripts/model/visualization.py
   domain: model
   source: graph
-  bytes: 46967
-  sha256: 5c65e9e842225b1d63d18882637de90fb102956531af901dab365a15a41c9e93
+  bytes: 41728
+  sha256: c48bc879aab008c7554bbadc72c70843ad94050ffc7ea790912abc56e3e9caa3
 - file: scripts/model/images/visualization/linked/model_names.png
   producer: scripts/model/visualization.py
   domain: model
   source: linked
-  bytes: 22485
-  sha256: dafe053ba15fb47ed0c2e9413cdbc12c9216709cd3b3f1251541dccd9bf18c2f
+  bytes: 25448
+  sha256: d6c07c70b19d24eb752285b41b2e7a6ea92b9075158657a50962124761390eab
 - file: scripts/model/images/visualization/linked/model_names_hide_fixed.png
   producer: scripts/model/visualization.py
   domain: model
   source: linked
-  bytes: 20267
-  sha256: 6e6fe77f41d7190c6f7f9c3c92416204ad0205b7844cd412cfe01093a000a5cf
+  bytes: 23309
+  sha256: 1cf09ecec14d2f55481cd561d3e9e9aba82d51ed51512ad0fc440f4c83f5b5b1
 - file: scripts/model/images/visualization/linked/model_names_uncollapsed.png
   producer: scripts/model/visualization.py
   domain: model
   source: linked
-  bytes: 22485
-  sha256: dafe053ba15fb47ed0c2e9413cdbc12c9216709cd3b3f1251541dccd9bf18c2f
+  bytes: 25448
+  sha256: d6c07c70b19d24eb752285b41b2e7a6ea92b9075158657a50962124761390eab
 - file: scripts/model/images/visualization/linked/model_priors.png
   producer: scripts/model/visualization.py
   domain: model
   source: linked
-  bytes: 26670
-  sha256: 60dd3aa733d64ebd11e6c406152dd0d4df56f8946653eaf5149e3664f1367140
+  bytes: 30487
+  sha256: 5508864268d2e4fb209daf5a69d3773f6140ef349dc09c4d02db4f73de7f6cce
 - file: scripts/samples/images/visualization/dynesty_static/corner_anesthetic.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: dynesty_static
-  bytes: 114554
-  sha256: e2c1cd3e8c5068da5354f600c0351044f136bc11ad2f8cd9554df36c112d3bce
+  bytes: 105261
+  sha256: a572cdf84683086d2482053072d184c217b381849f5b5aeecc5262c4f321a3f6
 - file: scripts/samples/images/visualization/dynesty_static/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: dynesty_static
-  bytes: 52168
-  sha256: 5af701ebe7914a267846f8f664fd88db216f2e053b448167f104c3635ef71f8d
+  bytes: 48726
+  sha256: 656df2024d24f5237227731f2dc3980f830d1c57e5beeffa1cf4c5171a55aa4d
 - file: scripts/samples/images/visualization/emcee/corner_anesthetic.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: emcee
-  bytes: 136420
-  sha256: bd7ecb4df096115a2dda782b4145770dc47318f9e1326d9e2eba8cc846c1754b
+  bytes: 140555
+  sha256: aec7eb31fb2c1b2fe07b6029a6f2bf7932cc21566cedfff0c6c0c61efdf3ee17
 - file: scripts/samples/images/visualization/emcee/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: emcee
-  bytes: 96937
-  sha256: 3bd8c9b1f5c3808b7907f401dd5d4e8d3263f8c17e141de3e089b952cfd11510
+  bytes: 107568
+  sha256: 212367872265bea723460728370b2232cfbde51e8b5baed23fb68988dab5faed
 - file: scripts/samples/images/visualization/lbfgs/log_likelihood_vs_iteration.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 44763
-  sha256: 49133e6626b5cefdd0678942c6e2b41a687b96edc80ee8ef1e90769bacc3566b
+  bytes: 43810
+  sha256: e20d40a72a8e550b459b5c17693025cde239b6c1145bc80ab55256c3776afd27
 - file: scripts/samples/images/visualization/lbfgs/log_likelihood_vs_iteration_last_50_percent.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 66003
-  sha256: e74df9aa4dbcc8e23b288ee8eae349949228117305bf91795be4050108e6edc4
+  bytes: 56195
+  sha256: d03f1df1e671815160470dd2609c4b96b456cabf8c2c74488573c64f541546b5
 - file: scripts/samples/images/visualization/lbfgs/log_likelihood_vs_iteration_log_y.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 31882
-  sha256: 3a0debefebcb6488df32668856cc869c1a00e34ff09292e06f37102355c9dee1
+  bytes: 32296
+  sha256: 12516a9a116476eddbcf93837649d28011c5caf0f7b5cbb3e1f70b21f7dcb346
 - file: scripts/samples/images/visualization/lbfgs/subplot_parameters.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 45807
-  sha256: d0006de11126f3c75a3204a22c31f7f2b84c4775d2f840049606dc494af9e958
+  bytes: 43494
+  sha256: a40d66ae40bdc18ac6e3396227d13312b6dbfb546925f174e2ce8a8daecceba6
 - file: scripts/samples/images/visualization/lbfgs/subplot_parameters_last_50_percent.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 56228
-  sha256: 5c05214921454536ac6de19e20ba578c3e746c0aa72bbb7f567fe66fc3c75bab
+  bytes: 53623
+  sha256: 8c99b9c3fbcfd0e2ed4b32029065ac0fc023e5d1c6716ec69a4ed63c69b6d02d
 - file: scripts/samples/images/visualization/lbfgs/subplot_parameters_log_y.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 56655
-  sha256: 744a1eafa1da070b70f556eccd85300018f2024eb000cd6548e6d759c005661c
+  bytes: 62379
+  sha256: bd17f89911786773c8d40e23757558df254865c88557b06aa826b84a7af53cf7
 - file: scripts/samples/images/visualization/multistart_adam/figure_of_merit_vs_iteration.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: multistart_adam
-  bytes: 65620
-  sha256: 3aad211c0ffc9909ac25b73e7b3b7eb64c0326e8572fa57fb187045002bc67f9
+  bytes: 67231
+  sha256: 9fe5df47d209d636de37fea3408ec543cac824cc0fdbbb410906c0785ea6eebe
 - file: scripts/samples/images/visualization/nautilus/corner_anesthetic.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: nautilus
-  bytes: 117658
-  sha256: 62d46ec7c16611ed4521015c216a7410251d23419910bb9f9c066fc7cd67e539
+  bytes: 111688
+  sha256: eddf9d40a3eb52cae2170759b551e462c6529e99e17aa25deffeb583c51affb0
 - file: scripts/samples/images/visualization/nautilus/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: nautilus
-  bytes: 60536
-  sha256: 82ba90b3e6c2b9acfc08a9b54995d23fea64c8f1d19ca437113f90ee8498b417
+  bytes: 56839
+  sha256: a40ceb0bf607fc89f05a8ec2dbf87d9a8ac01ca6d9b0f913300de3cfe398c659
 - file: scripts/samples/images/visualization/zeus/corner_anesthetic.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: zeus
-  bytes: 148441
-  sha256: c1adb8ad2717dcaf89d1d5e4e63b0613337f1484113f461bd051e762d90fa744
+  bytes: 110476
+  sha256: b15689b4035ce5bee2f9eea4912a3b0cd106e76c12cb51b44b0376a3cb50b519
 - file: scripts/samples/images/visualization/zeus/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: zeus
-  bytes: 69913
-  sha256: cb3a8ab47b22c96b5eb509fd7ceb05e74c31086688ed78de43a2f00204977f2f
+  bytes: 55100
+  sha256: 317982098655dcbbde4a6cb9a4d23d093a76933a4302e2ea1c4b9ee1a88ab0b1
 - file: scripts/visualizer/images/visualization/data.png
   producer: scripts/visualizer/visualization.py
   domain: visualizer
   source: ''
-  bytes: 34277
-  sha256: 3104a7fa2518c3e0be8b8efd4ab79a8905439ebdb1baa6963e663029841b2f11
+  bytes: 35213
+  sha256: 7beb09a54e728df1d479476e8090c0f7959b81545b832d138cdd19c2a9f5d7f3
 - file: scripts/visualizer/images/visualization/model.png
   producer: scripts/visualizer/visualization.py
   domain: visualizer
   source: ''
-  bytes: 15814
-  sha256: 11facfcf0ca94679f4b77afd81596ff5bcc69748da711733ec4ef7b5e4ea734a
+  bytes: 15831
+  sha256: 681e61ee3009c28ba1eac0eff33e4b3ad8be8d63397e6b74bb01cf726fdacdb9
 - file: scripts/visualizer/images/visualization/model_fit.png
   producer: scripts/visualizer/visualization.py
   domain: visualizer
   source: ''
-  bytes: 42991
-  sha256: ff06b6346c96b7935bbf5f971e85bbb91e8919443b97510c667e8e392b0b4d1f
+  bytes: 43463
+  sha256: 927ec35e5929dd3e8b1e89a83b7fa62a1bda79ebc1fa474e046e7215acedfc69
