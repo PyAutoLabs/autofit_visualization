@@ -101,7 +101,12 @@ critiques are filed with the `eyes-critique` label.
 - [autofit_workspace](https://github.com/PyAutoLabs/autofit_workspace) — user-facing scripts and
   tutorials; the source of the datasets' recipe, the EP example and the config.
 
-## Community & support
+## Community & Contributing
 
-- **Slack** — [PyAutoLens workspace](https://join.slack.com/t/pyautolens/shared_invite/zt-2cufp4eyf-fXfgMxRGuvg~bMrI3uOAxg) for questions (it hosts PyAutoFit too).
-- **Issues** — file figure bugs and visualization requests on this repo's [issue tracker](https://github.com/PyAutoLabs/autofit_visualization/issues).
+**PyAutoFit** is built in the open by its users: everyone is welcome to ask questions,
+share what they have made with it, and contribute.
+
+Questions, ideas and bug reports: the [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions).
+Chat with us on [Slack](https://join.slack.com/t/pyautolens/shared_invite/zt-2cufp4eyf-fXfgMxRGuvg~bMrI3uOAxg).
+
+Community-built tools and tutorials, and how to contribute: the [**PyAutoFit** community page](https://pyautofit.readthedocs.io/en/latest/general/community.html).
