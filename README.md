@@ -50,6 +50,9 @@ source activate.sh                  # PyAutoNerves + PyAutoFit checkouts on PYTH
 bash gallery/gallery_run.sh --all   # run every producer, rebuild GALLERY.md + manifest, --check
 ```
 
+Set `PYAUTO_EYES_SCRATCH` to also mirror each re-rendered domain to
+`$PYAUTO_EYES_SCRATCH/autofit/<domain>/` for review before any PR (see `AGENTS.md`).
+
 Or one domain: `python scripts/samples/visualization.py`, then `python gallery/gallery_build.py`.
 Commit the regenerated PNGs under `scripts/<domain>/images/` together with `GALLERY.md` and
 `gallery/viz_manifest.yaml` (every figure's producer, domain, source type, path, byte size and
