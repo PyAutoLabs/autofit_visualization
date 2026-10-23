@@ -2,9 +2,9 @@
 # the PyAutoEyes dashboard. Do not edit by hand: rerun
 # `bash gallery/gallery_run.sh --all` (or `python gallery/gallery_build.py`).
 schema: 1
-generated: '2026-09-29'
+generated: '2026-10-23'
 rendered_with:
-  autofit: 2026.9.27.2
+  autofit: 2026.10.23.1
 figure_count: 49
 figures:
 - file: scripts/ep/images/visualization/ep_plotter/graph_model_prior_factors.png
@@ -17,14 +17,14 @@ figures:
   producer: scripts/ep/visualization.py
   domain: ep
   source: ep_plotter
-  bytes: 76164
-  sha256: e7281658a678852336a7a5917e918edc561e297ffcbb08c82522fa282b0e568e
+  bytes: 76065
+  sha256: 6fdc6960514e0ba19220bdad622c013fa7df06ee69b859a94a10ed1f72a42f3a
 - file: scripts/ep/images/visualization/factor_0/corner_anesthetic.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_0
-  bytes: 119268
-  sha256: 51f5e6b4c1b47617477ec7343b492fe4f4eb13f3901bdabd856069935a955dc7
+  bytes: 120946
+  sha256: 684a0e091fe92aaa33b70060cc97e7acf2b57d4eda6350bf7dc20e357b2c6a0e
 - file: scripts/ep/images/visualization/factor_0/data.png
   producer: scripts/ep/visualization.py
   domain: ep
@@ -41,14 +41,14 @@ figures:
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_0
-  bytes: 39293
-  sha256: cc38c526f7b3d844f07a15d4e60b5bd2e9a921ecdbb4fbe8f4dd27dbf1a7be46
+  bytes: 39266
+  sha256: 3d8c2399d5ba8fc697b57a81e28f9afaef7699315dbb7588ee606268d296f418
 - file: scripts/ep/images/visualization/factor_1/corner_anesthetic.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_1
-  bytes: 117176
-  sha256: 55d405c9e2ad0bd9c19c33c259f0b13bc230eee24fc04b8a2b0742b9b40ac206
+  bytes: 122500
+  sha256: 9767cf10465ae266c505e90a577cd87cc55417bb955ab55eeb6bf1f7858d4327
 - file: scripts/ep/images/visualization/factor_1/data.png
   producer: scripts/ep/visualization.py
   domain: ep
@@ -65,14 +65,14 @@ figures:
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_1
-  bytes: 45526
-  sha256: ded93350ad3230f62ffcb7a06825dc7812957d15d54e1bdeec0fcec1a271b5c5
+  bytes: 45585
+  sha256: a9e334041afd63f3238c4663e1dee051d3e0f0d7fe28368dfa0e4586a93832cc
 - file: scripts/ep/images/visualization/factor_2/corner_anesthetic.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_2
-  bytes: 118818
-  sha256: 3f67401ad7f5184f1c7f42b1a28f67142a616fe4c4dd48f5657732853c4bfedf
+  bytes: 116435
+  sha256: afb7f0ecd031073891a7ccb988e8928c0d6c3e86bc3dd7d38613da7c210868a0
 - file: scripts/ep/images/visualization/factor_2/data.png
   producer: scripts/ep/visualization.py
   domain: ep
@@ -89,20 +89,20 @@ figures:
   producer: scripts/ep/visualization.py
   domain: ep
   source: factor_2
-  bytes: 48356
-  sha256: ac99b1dd729ffaa8d0bb6f0e07c7149f5083a2375ffa9adf79cd1d4d2e8c2b24
+  bytes: 48395
+  sha256: a5a20eee8dd1321a11439966ff90dc3a4d8b535ef236501553b9b73268617366
 - file: scripts/ep/images/visualization/graph.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 36246
-  sha256: 9d793d59455d28be86aa8e8cd14998b7650dee69982de320fb858eb5c9b2bbe4
+  bytes: 37971
+  sha256: d9f532e146c8ac74900e1e18938a17a43c302453f96f63bf49361ea7bda5f721
 - file: scripts/ep/images/visualization/graph_factors.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 75990
-  sha256: 5f6077117f5d904dd443a50400ae0359de45c25a326e7eb469f879ab7305df64
+  bytes: 78039
+  sha256: a0530ffb36b929fa2f5d1baa5aa3e91e787965b4cdabb79d5eeace59ee532422
 - file: scripts/ep/images/visualization/graph_model.png
   producer: scripts/ep/visualization.py
   domain: ep
@@ -113,14 +113,14 @@ figures:
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 70176
-  sha256: 7b6e7cf233d5f3f171ada88f7a83c09d8d50be8302dd206a6446424a7231577a
+  bytes: 70292
+  sha256: 87e69ee1d2e698d69ba12c18a21be95241dfd91906d829c7c5d5c57e5320f4a8
 - file: scripts/ep/images/visualization/mean_field_evolution.png
   producer: scripts/ep/visualization.py
   domain: ep
   source: ''
-  bytes: 66053
-  sha256: 629c82d491957970be57eac8b49b4cce404455c2bbcec21c6292514ba8a6ea8d
+  bytes: 64789
+  sha256: c57bd925c1db1d1e4372665d8cc8fc38bbad83bbe2c4e099dd7ebd6ed404b8b6
 - file: scripts/model/images/visualization/collection/model_names.png
   producer: scripts/model/visualization.py
   domain: model
@@ -197,38 +197,38 @@ figures:
   producer: scripts/samples/visualization.py
   domain: samples
   source: dynesty_static
-  bytes: 105261
-  sha256: a572cdf84683086d2482053072d184c217b381849f5b5aeecc5262c4f321a3f6
+  bytes: 96726
+  sha256: 368fcf23b6dbe7170aa48089f23f00d1e8e4c10c0a03b1c0e05735aa22f06bac
 - file: scripts/samples/images/visualization/dynesty_static/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: dynesty_static
-  bytes: 48726
-  sha256: 656df2024d24f5237227731f2dc3980f830d1c57e5beeffa1cf4c5171a55aa4d
+  bytes: 49132
+  sha256: befbe7e21839b0cbb4b25a4b407bd0e6fdebc077aeae21e7b290d3ffa5aa473c
 - file: scripts/samples/images/visualization/emcee/corner_anesthetic.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: emcee
-  bytes: 140555
-  sha256: aec7eb31fb2c1b2fe07b6029a6f2bf7932cc21566cedfff0c6c0c61efdf3ee17
+  bytes: 131801
+  sha256: 2673a4061caf523a7bdf15de6e3b4a4a37599cb5db8c33153f92f985d8f8702a
 - file: scripts/samples/images/visualization/emcee/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: emcee
-  bytes: 107568
-  sha256: 212367872265bea723460728370b2232cfbde51e8b5baed23fb68988dab5faed
+  bytes: 91268
+  sha256: fc2cd2b6ef4fdf6f125c95ab6ef3a9bca80fb15d7a78684ffd76f07035111997
 - file: scripts/samples/images/visualization/lbfgs/log_likelihood_vs_iteration.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 43810
-  sha256: e20d40a72a8e550b459b5c17693025cde239b6c1145bc80ab55256c3776afd27
+  bytes: 43909
+  sha256: 2e4af1d6f4dcb02b71ec31f2a1c2c45e99e3fa0122478fce68ea18d8a86b83f8
 - file: scripts/samples/images/visualization/lbfgs/log_likelihood_vs_iteration_last_50_percent.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 56195
-  sha256: d03f1df1e671815160470dd2609c4b96b456cabf8c2c74488573c64f541546b5
+  bytes: 62665
+  sha256: 7be7cdab47e708f2a56b9f69d9b13569e1139a07c0fb505f42c3c70aa5aba973
 - file: scripts/samples/images/visualization/lbfgs/log_likelihood_vs_iteration_log_y.png
   producer: scripts/samples/visualization.py
   domain: samples
@@ -239,20 +239,20 @@ figures:
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 43494
-  sha256: a40d66ae40bdc18ac6e3396227d13312b6dbfb546925f174e2ce8a8daecceba6
+  bytes: 47972
+  sha256: e7cbb41e99d66dc82d401a32c4ebaa107fa5e78e5b5a110814ac4ee86d9849ba
 - file: scripts/samples/images/visualization/lbfgs/subplot_parameters_last_50_percent.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 53623
-  sha256: 8c99b9c3fbcfd0e2ed4b32029065ac0fc023e5d1c6716ec69a4ed63c69b6d02d
+  bytes: 57595
+  sha256: 6022f056113222d8ea973117e5aa79c46c33b652fa20d66d516b97f1abff2465
 - file: scripts/samples/images/visualization/lbfgs/subplot_parameters_log_y.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: lbfgs
-  bytes: 62379
-  sha256: bd17f89911786773c8d40e23757558df254865c88557b06aa826b84a7af53cf7
+  bytes: 59232
+  sha256: c1796e26d8e6305c743c8b4939fe45317bb8133a66664cf2cb65d16c6fffe7f7
 - file: scripts/samples/images/visualization/multistart_adam/figure_of_merit_vs_iteration.png
   producer: scripts/samples/visualization.py
   domain: samples
@@ -263,8 +263,8 @@ figures:
   producer: scripts/samples/visualization.py
   domain: samples
   source: nautilus
-  bytes: 111688
-  sha256: eddf9d40a3eb52cae2170759b551e462c6529e99e17aa25deffeb583c51affb0
+  bytes: 111393
+  sha256: d9bfc8881c2bb0714edcd86476637bc9b7d0ee73386f0ea8f70a5ba07d8b918b
 - file: scripts/samples/images/visualization/nautilus/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
@@ -275,14 +275,14 @@ figures:
   producer: scripts/samples/visualization.py
   domain: samples
   source: zeus
-  bytes: 110476
-  sha256: b15689b4035ce5bee2f9eea4912a3b0cd106e76c12cb51b44b0376a3cb50b519
+  bytes: 135805
+  sha256: 74865c9f7f1f72c0c4d1fa2c1709763cc82e4221a9013e8d67b783083a146d09
 - file: scripts/samples/images/visualization/zeus/corner_cornerpy.png
   producer: scripts/samples/visualization.py
   domain: samples
   source: zeus
-  bytes: 55100
-  sha256: 317982098655dcbbde4a6cb9a4d23d093a76933a4302e2ea1c4b9ee1a88ab0b1
+  bytes: 86206
+  sha256: f87334a6a9a240eb143cc52402640a451e3ba32b8f830e7ee96a2405d23b1855
 - file: scripts/visualizer/images/visualization/data.png
   producer: scripts/visualizer/visualization.py
   domain: visualizer
@@ -299,5 +299,5 @@ figures:
   producer: scripts/visualizer/visualization.py
   domain: visualizer
   source: ''
-  bytes: 43463
-  sha256: 927ec35e5929dd3e8b1e89a83b7fa62a1bda79ebc1fa474e046e7215acedfc69
+  bytes: 43485
+  sha256: c4771352b1ae07dca12a3fac103315f698970f99f2b702c519ae34d727591e70
