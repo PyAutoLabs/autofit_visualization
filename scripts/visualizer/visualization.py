@@ -53,7 +53,16 @@ import matplotlib
 
 matplotlib.use("Agg")
 
+import random
+
 import autofit as af
+import numpy as np
+
+# Seed Python's and NumPy's global RNGs for draws a search seed does not reach (Zeus
+# picks walker pairs with ``random.sample`` and its moves with ``np.random``), so
+# consecutive renders are byte-identical.
+random.seed(1)
+np.random.seed(1)
 
 from _viz_cli import load_dataset
 
@@ -67,7 +76,7 @@ data, noise_map = load_dataset("gaussian_x1")
 
 model = af.Model(af.ex.Gaussian)
 analysis = af.ex.Analysis(data=data, noise_map=noise_map)
-search = af.DynestyStatic(name="visualizer", nlive=50, sample="rwalk")
+search = af.DynestyStatic(name="visualizer", nlive=50, sample="rwalk", seed=1)
 
 t0 = time.perf_counter()
 search.fit(model=model, analysis=analysis)

@@ -68,7 +68,16 @@ import matplotlib
 
 matplotlib.use("Agg")
 
+import random
+
 import autofit as af
+import numpy as np
+
+# Seed Python's and NumPy's global RNGs for draws a search seed does not reach (Zeus
+# picks walker pairs with ``random.sample`` and its moves with ``np.random``), so
+# consecutive renders are byte-identical.
+random.seed(1)
+np.random.seed(1)
 from autofit.non_linear.plot import (
     corner_anesthetic,
     corner_cornerpy,
@@ -108,13 +117,15 @@ def _fit(search, use_jax=False):
 __Searches__
 
 Deliberately small but real: every search converges on this 3-parameter problem in
-seconds. The seeds / small live-point counts keep the renders quick and repeatable.
+seconds. The small live-point counts keep the renders quick; every search takes
+``seed=1`` (and NumPy's global RNG is seeded above) so two consecutive renders are
+byte-identical and a re-render only changes a PNG when the figure really changed.
 """
 SEARCHES = {
-    "dynesty_static": lambda: af.DynestyStatic(name="dynesty_static", nlive=75, sample="rwalk"),
+    "dynesty_static": lambda: af.DynestyStatic(name="dynesty_static", nlive=75, sample="rwalk", seed=1),
     "nautilus": lambda: af.Nautilus(name="nautilus", n_live=100, seed=1),
-    "emcee": lambda: af.Emcee(name="emcee", nwalkers=30, nsteps=500),
-    "zeus": lambda: af.Zeus(name="zeus", nwalkers=30, nsteps=500),
+    "emcee": lambda: af.Emcee(name="emcee", nwalkers=30, nsteps=500, seed=1),
+    "zeus": lambda: af.Zeus(name="zeus", nwalkers=30, nsteps=500, seed=1),
 }
 
 expected: list[Path] = []
@@ -134,7 +145,7 @@ each plain, with ``use_log_y`` and with ``use_last_50_percent``. The functions a
 ``_log_y`` / ``_last_50_percent`` to the filename themselves, so the variants never
 collide.
 """
-samples = _fit(af.LBFGS(name="lbfgs"))
+samples = _fit(af.LBFGS(name="lbfgs", seed=1))
 out = image_path / "lbfgs"
 for func in (subplot_parameters, log_likelihood_vs_iteration):
     for suffix, kwargs in (

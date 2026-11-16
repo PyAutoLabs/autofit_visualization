@@ -66,7 +66,16 @@ import matplotlib
 
 matplotlib.use("Agg")
 
+import random
+
 import autofit as af
+import numpy as np
+
+# Seed Python's and NumPy's global RNGs for draws a search seed does not reach (Zeus
+# picks walker pairs with ``random.sample`` and its moves with ``np.random``), so
+# consecutive renders are byte-identical.
+random.seed(1)
+np.random.seed(1)
 
 from _viz_cli import load_dataset
 
@@ -86,7 +95,7 @@ example, so the EP history has something to show.
 """
 centre_shared_prior = af.GaussianPrior(mean=35.0, sigma=30.0)
 
-search = af.DynestyStatic(nlive=100, sample="rwalk", walks=10)
+search = af.DynestyStatic(nlive=100, sample="rwalk", walks=10, seed=1)
 
 analysis_factor_list = []
 for i in range(TOTAL_DATASETS):
