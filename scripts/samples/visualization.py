@@ -122,7 +122,9 @@ seconds. The small live-point counts keep the renders quick; every search takes
 byte-identical and a re-render only changes a PNG when the figure really changed.
 """
 SEARCHES = {
-    "dynesty_static": lambda: af.DynestyStatic(name="dynesty_static", nlive=75, sample="rwalk", seed=1),
+    "dynesty_static": lambda: af.DynestyStatic(
+        name="dynesty_static", nlive=75, sample="rwalk", seed=1
+    ),
     "nautilus": lambda: af.Nautilus(name="nautilus", n_live=100, seed=1),
     "emcee": lambda: af.Emcee(name="emcee", nwalkers=30, nsteps=500, seed=1),
     "zeus": lambda: af.Zeus(name="zeus", nwalkers=30, nsteps=500, seed=1),
